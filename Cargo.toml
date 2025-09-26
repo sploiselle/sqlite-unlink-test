@@ -1,0 +1,8 @@
+[package]
+name = "sqlite-unlink-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = { version = "0.32", features = ["bundled", "trace"] }
+colored = "2.1"
